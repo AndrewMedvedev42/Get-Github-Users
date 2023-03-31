@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90vh; }
+
+.input_page {
+  text-align: center; }
+  .input_page h1 {
+    font-size: 30px; }
+  .input_page form {
+    margin-bottom: 10px; }
+    .input_page form input[type=text], .input_page form input[type=submit] {
+      font-size: 20px;
+      padding: 10px 15px; }
+    .input_page form input[type=text] {
+      border: 1px #7e7e7e solid; }
+    .input_page form input[type=submit] {
+      color: white;
+      transition: .3s;
+      border: #044488 1px solid;
+      background-color: #044488; }
+    .input_page form input[type=submit]:hover {
+      border: #033468 1px solid;
+      background-color: #033468; }
+    .input_page form input[type=submit]:active {
+      border: #022347 1px solid;
+      background-color: #022347; }
+  .input_page span {
+    color: red; }
+
+.user_page {
+  text-align: center; }
+  .user_page h1 {
+    font-size: 28px; }
+  .user_page .listsSection {
+    display: flex;
+    justify-content: center; }
+    .user_page .listsSection ul {
+      padding: 0; }
+      .user_page .listsSection ul:first-child {
+        margin-right: 50px; }
+      .user_page .listsSection ul li {
+        list-style: none;
+        margin-bottom: 5px; }
+        .user_page .listsSection ul li.technologyItem {
+          text-transform: capitalize; }
+
+@media (max-width: 750px) {
+  .user_page .listsSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .user_page .listsSection ul:first-child {
+      margin-right: 0px; } }
