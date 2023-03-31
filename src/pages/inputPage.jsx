@@ -18,7 +18,7 @@ export const InputPage = () => {
             <h1>Github user search</h1>
             <p>Search for users from all over the platform</p>
             <form action="" onSubmit={findUser}>
-                <input placeholder="Enter username" type="text" onChange={(e)=>{setInput(e.target.value)}}/>
+                <input placeholder="Enter GitHub username" type="text" onChange={(e)=>{setInput(e.target.value)}}/>
                 <input type="submit" />
             </form>
             {

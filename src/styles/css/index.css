@@ -15,9 +15,10 @@ body {
   .input_page form {
     margin-bottom: 10px; }
     .input_page form input[type=text], .input_page form input[type=submit] {
-      font-size: 20px;
+      font-size: 18px;
       padding: 10px 15px; }
     .input_page form input[type=text] {
+      width: 200px;
       border: 1px #7e7e7e solid; }
     .input_page form input[type=submit] {
       color: white;
